@@ -23,11 +23,9 @@ According to many features provided by this dataset, we need to find the relatio
 | House Style | object |Style of dwelling
 | Overall Qual | int64 |Overall material and finish quality
 | Overall Cond | int64 |Overall condition rating
-10 Very Excellent
 | Year Built | int64 |Original construction date
 | Year Remod/Add | int64 |Remodel date (same as construction date if no remodeling or additions)
 | Roof Style | object |Type of roof
-Flat Flat
 | Roof Matl | object |Roof material
 | Exterior 1st | object |Exterior covering on house
 | Exterior 2nd | object |Exterior covering on house (if more than one material)
