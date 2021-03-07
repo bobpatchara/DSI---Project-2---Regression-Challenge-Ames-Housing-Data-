@@ -82,8 +82,7 @@ Flat Flat
 
 My first Lasso score from cross validation before tuning is 93.38%, which means 93% of the variance in SalePrice can be explained by the model and also give a pretty good RMSE score. It means that on average the model will predict within $20,299.98 of the actual target. 
 
-After tuning the model by removed some features that have an outsized negative impact on price, like an outlier. 
-Now that the offending properties have been removed from the training data, I will split and scale the data again, and then fit a new lasso model to it. This new model should perform better than the original one. 
+After tuning the model by removed some features that have an outsized negative impact on price, like an outlier, now that the offending properties have been removed from the training data, I will split and scale the data again, and then fit a new lasso model to it. This new model should perform better than the original one. 
 
 The model currently has an r2 score of .9138nd an RMSE of 22,420. Additional exploration of the data and feature engineering will likely improve the model’s performance, particularly with regards to high-value properties. 
 
