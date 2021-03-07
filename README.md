@@ -78,7 +78,7 @@ Flat Flat
 | SalePrice | int64 | the property's sale price in dollars
 
 
-### Conclusion
+### My Conclusion and recommendation
 
 My first Lasso score from cross validation before tuning is 93.38%, which means 93% of the variance in SalePrice can be explained by the model and also give a pretty good RMSE score. It means that on average the model will predict within $20,299.98 of the actual target. 
 
